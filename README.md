@@ -1,7 +1,4 @@
-# dsc-phase-3-project-from-kaggle
-
-# dsc-phase-3-project-from-kaggle
-
+# Predicting Heart Disease
 
 # Introduction 
 
