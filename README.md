@@ -11,7 +11,7 @@ In this work, we will use the suprevised categorial machine learning models name
 
 In order to prepare the data, we will do the following:
 
-* **Step 1:** We will convert binary `Yes` and `No` values to `1` and `0`, respectively. Similarly, in this step, we convert `Female` to `1` and `Male` to `0`. Therefore, the values that we get when we are comparing the importance of the results, are for those with values equal to `1`. for example, we can interpret of `Sex` as `female?` and the results that we find can be interpreted as how being identified as female will affect the chance of getting heart disease. 
+* **Step 1:** We will convert binary `Yes` and `No` values to `1` and `0`, respectively. Similarly, in this step, we convert `Female` to `0` and `Male` to `1`. Therefore, the values that we get when we are comparing the importance of the results, are for those with values equal to `1`. for example, we can interpret of `Sex` as `female?` and the results that we find can be interpreted as how being identified as female will affect the chance of getting heart disease. 
 
 * **Step 2:** In this step we will use `OneHotEncoder` from `SKLearn` to convert the multivariable features into numerical value. We will enforce drop first to reduce the collinearity. 
 
@@ -71,7 +71,7 @@ Since heart disease is one of the main causes of death in United States and the 
 
 In this work, we used different binary classification machine learning approaches namely, Decision Tree, Random Forest, XGBoost, LightGBM and CatBoost. To prepare our data, we converted categorical features to numerical values so that we can use them in our models. Moreover, because our data is imbalanced, we need to resample it by using SMOTE. Moreover, we splited our data to train and test sets, and we used these sets to train the model and test it, respectively. 
 
-Since we want to have a model that can predict as much cases with heart disease as possible, we choose recall score as the maetric and the model with the highest recall is chosen. According to this metric, we realized that `LightGBM` has the highest recall number, according to which gender (female) and being older than 80 years old are the two first important features. 
+Since we want to have a model that can predict as much cases with heart disease as possible, we choose recall score as the maetric and the model with the highest recall is chosen. According to this metric, we realized that `LightGBM` has the highest recall number, according to which male and being older than 80 years old are the two first important features. 
 
 It is important to note that one could get another result if they use other approaches with different tuned hyperparameters; therefore, the results of this study are not abolute and are relative. In addition, for getting a better model we would recommend gathering other data with different features and add them to the data that we used. This way, the resuls might be more reliable and the model might have better results. 
 
