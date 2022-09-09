@@ -44,7 +44,7 @@ At the end, we will use the following approaches which are not part of the curri
 
 In this section, we will introduce our final model. Since we are trying to predict if a person would have heart disease by using different features, it is rational to pick recall scores over other scores. Therefore, we will pick the model that has the highest recall score. We listed all the results in the following table
 
-!(./Images/results.png)
+![./Images/results.png]
 
 From this table we realize that `LightGBM` has the highest recall score and as a result we will consider this as our final model. 
 
