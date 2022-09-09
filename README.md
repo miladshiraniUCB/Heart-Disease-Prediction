@@ -44,7 +44,7 @@ At the end, we will use the following approaches which are not part of the curri
 
 In this section, we will introduce our final model. Since we are trying to predict if a person would have heart disease by using different features, it is rational to pick recall scores over other scores. Therefore, we will pick the model that has the highest recall score. We listed all the results in the following table
 
-![./Images/results.png]
+![](./Images/results.png)
 
 From this table we realize that `LightGBM` has the highest recall score and as a result we will consider this as our final model. 
 
@@ -66,6 +66,14 @@ Since we want to have a model that can predict as much cases with heart disease 
 It is important to note that one could get another result if they use other approaches with different tuned hyperparameters; therefore, the results of this study are not abolute and are relative. In addition, for getting a better model we would recommend gathering other data with different features and add them to the data that we used. This way, the resuls might be more reliable and the model might have better results. 
 
 
+# Repository Structure
 
+```
+├── Images: All the images including the one for README
+├── Notebook: Main Notebook
+├── PDFs: PDF files of the notebook and Presentation
+├── Data : data used for modeling
+├── README.md : project information and repository structure
+```
 
 
