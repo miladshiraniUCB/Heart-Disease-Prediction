@@ -44,17 +44,7 @@ At the end, we will use the following approaches which are not part of the curri
 
 In this section, we will introduce our final model. Since we are trying to predict if a person would have heart disease by using different features, it is rational to pick recall scores over other scores. Therefore, we will pick the model that has the highest recall score. We listed all the results in the following table
 
-\begin{array}{c} \hline
-\text{Model} & \text{AUC} & \text{Precision} & \text{Recall} & \text{F1-Score} \\ \hline
-\text{Decision Tree} & 0.68 & 0.17 & 0.66 & 0.28 \\
-\text{Tunned Decision Tree} & 0.66 & 0.23 & 0.47 & 0.31 \\
-\text{Random Forest} & 0.60 & 0.25 & 0.28 & 0.27 \\
-\text{Tunned Random Forest} & 0.74 & 0.21 & 0.72 & 0.33 \\
-\text{XGBoost} & 0.71 & 0.25 & 0.58 & 0.35 \\
-\text{Tunned XGBoost} & 0.71 & 0.25 & 0.58 & 0.35 \\
-\text{LightGBM} & 0.76 & 0.201 & 0.82 & 0.33 \\
-\text{CatBoost} & 0.77 & 0.22 & 0.80  & 0.35\\ \hline
-\end{array}
+!(./Images/results.png)
 
 From this table we realize that `LightGBM` has the highest recall score and as a result we will consider this as our final model. 
 
