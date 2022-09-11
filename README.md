@@ -1,5 +1,7 @@
 # Predicting Heart Disease
 
+![](./Images/cardio.jpeg)
+
 # Introduction 
 
 Heart Diesease is one of the main causes of death in the United State and there has been several researches to understand how we can control and treat heart disease to reduce the number of death. In this work, by using the available data from [kaggle.com](https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease), we try to find the features that have highest impact on heart disease by introducing a comprehensive model to predict if a person will have heart disease in future or not. 
